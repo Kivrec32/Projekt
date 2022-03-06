@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+  <title>Války</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="java.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</head>
+
+<body class="ok">
+  <div class="pf">
+    <header>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a target="_blank" href="valky.html">Války</a>
+        <a target="_blank" href="zbran.html">Zbraně</a>
+        <a target="_blank" href="technika.html">Válečná technika</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+  </div>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+  </header>
+  <main>
+    <div class="timeline-container" id="timeline-1">
+      <div class="timeline-header">
+        <h2 class="timeline-header__title">Světové Války</h2>
+        <h3 class="timeline-header__subtitle">Timeline</h3>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item" data-text="Americká občanská válka">
+          <div class="timeline__content"><img class="timeline__img" src="img/obca.jpg" alt="*" />
+            <h2 class="timeline__content-title"><a class="pf" target="_blank"
+                href="https://cs.wikipedia.org/wiki/Americk%C3%A1_ob%C4%8Dansk%C3%A1_v%C3%A1lka">1861-1865</a></h2>
+            <p class="timeline__content-desc">Byl ozbrojený konflikt, jenž probíhal na severoamerickém
+              kontinentu mezi státy Unie a státy Konfederace, což byla koalice jedenácti amerických států,
+              které se chtěly odtrhnout od Unie. Jelikož státy Konfederace byly soustředěny v jihovýchodní
+              části Unie, nazývá se tato válka také válkou Severu proti Jihu. Jako příčina války se často
+              uvádí spor o otroctví. Tento výklad je značně zjednodušený, důvodů k válce byla celá řada.Válka přinesla
+              kolem 600 000 mrtvých, což převyšuje ztráty amerických vojsk ve všech ostatních konfliktech dohromady.
+              Občanská válka zaznamenala první masivní využití telegrafie, železnice a kulometů v boji a skončila
+              porážkou populačně i průmyslově slabšího Jihu.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-text="První světová válka">
+          <div class="timeline__content"><img class="timeline__img" src="img/psv.jpg" alt="*" />
+            <h2 class="timeline__content-title"><a class="pf" target="_blank"
+                href="https://cs.wikipedia.org/wiki/Prvn%C3%AD_sv%C4%9Btov%C3%A1_v%C3%A1lka">1914-1918</a></h2>
+            <p class="timeline__content-desc">Byl globální válečný konflikt probíhající od 28. července 1914 do 11.
+              listopadu 1918. První světová
+              válka zasáhla Evropu, Afriku a Asii a bojovalo se i na světových oceánech. Formální příčinou války byl
+              úspěšný atentát na následníka rakousko-uherského trůnu arcivévodu Františka Ferdinanda d'Este v Sarajevu
+              dne 28. června 1914. Měsíc poté, 28. července 1914, vyhlásilo Rakousko-Uhersko odvetou válku Srbsku. Na
+              základě předchozích aliančních smluv následovala řetězová reakce ostatních států a během zhruba čtyř
+              týdnů
+              se ve válečném konfliktu ocitla většina Evropy.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-text="Druhá světová válka">
+          <div class="timeline__content"><img class="timeline__img" src="img/dsv.jpeg" alt="*" />
+            <h2 class="timeline__content-title"><a class="pf" target="_blank"
+                href="https://cs.wikipedia.org/wiki/Druh%C3%A1_sv%C4%9Btov%C3%A1_v%C3%A1lka">1939-1945</a></h2>
+            <p class="timeline__content-desc">Byl globální vojenský konflikt v letech 1939–1945, jehož se zúčastnila
+              většina států světa. Tento konflikt se stal s více než 62 miliony obětí na životech dosud největším a
+              nejvíce zničujícím válečným střetnutím v dějinách lidstva.
+              Brzy po okupaci zbytku Československa 15. března 1939 vypukla válka v Evropě. Začala dne 1. září 1939,
+              když nacistické Německo přepadlo Polsko. Krátce poté vyhlásily Francie, Spojené království a státy
+              Commonwealthu Německu válku. 17. září napadl Polsko i Sovětský svaz (SSSR). Německé invazi do Polska
+              předcházela jeho smlouva o neútočení se SSSR, takzvaný pakt Ribbentrop–Molotov, podepsaná 24. srpna
+              1939.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item" data-text="Válka ve Vietnamu">
+          <div class="timeline__content"><img class="timeline__img" src="img/vvv.jpg" alt="*" />
+            <h2 class="timeline__content-title"><a class="pf" target="_blank"
+                href="https://cs.wikipedia.org/wiki/V%C3%A1lka_ve_Vietnamu">1955-1975</a></h2>
+            <p class="timeline__content-desc">byl ozbrojený konflikt, který mezi lety 1955 a 1975 probíhal na území
+              Vietnamu a v příhraničí sousedících zemí (Kambodža a Laos).Na jihu Vietnamu se jednalo o pozemní boj, na
+              severu měl konflikt podobu bombardování a v deltě řeky Mekong šlo o říční válku (jejímž cílem byla
+              likvidace pobřežních porostů, které sloužily nepříteli jako krytí a prostor pro léčky). Spojené státy
+              americké a některé další země (Austrálie, Nový Zéland, Jižní Korea, Thajsko a Filipíny) se snažily
+              bránit
+              šíření komunismu v proamerickém jižním Vietnamu, který bojoval proti svému severnímu komunistickému
+              sousedovi. Toho podporovaly zase státy východního bloku, významnou roli měla i partyzánská komunistická
+              organizace Národní fronta osvobození Jižního Vietnamu (známá pod názvem Vietkong), materiální podporu
+              zajišťovala i Čína a hlavně Sovětský svaz.</p>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function ($) {
+          $.fn.timeline = function () {
+            var selectors = {
+              id: $(this),
+              item: $(this).find(".timeline-item"),
+              activeClass: "timeline-item--active",
+              img: ".timeline__img"
+            };
+            selectors.item.eq(0).addClass(selectors.activeClass);
+            selectors.id.css(
+              "background-image",
+              "url(" +
+              selectors.item
+              .first()
+              .find(selectors.img)
+              .attr("src") +
+              ")"
+            );
+            var itemLength = selectors.item.length;
+            $(window).scroll(function () {
+              var max, min;
+              var pos = $(this).scrollTop();
+              selectors.item.each(function (i) {
+                min = $(this).offset().top;
+                max = $(this).height() + $(this).offset().top;
+                var that = $(this);
+                if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
+                  selectors.item.removeClass(selectors.activeClass);
+                  selectors.id.css(
+                    "background-image",
+                    "url(" +
+                    selectors.item
+                    .last()
+                    .find(selectors.img)
+                    .attr("src") +
+                    ")"
+                  );
+                  selectors.item.last().addClass(selectors.activeClass);
+                } else if (pos <= max - 40 && pos >= min) {
+                  selectors.id.css(
+                    "background-image",
+                    "url(" +
+                    $(this)
+                    .find(selectors.img)
+                    .attr("src") +
+                    ")"
+                  );
+                  selectors.item.removeClass(selectors.activeClass);
+                  $(this).addClass(selectors.activeClass);
+                }
+              });
+            });
+          };
+        })(jQuery);
+
+        $("#timeline-1").timeline();
+      </script>
+  </main>
+  <footer>
+    <div class="container-fluid footer">
+      <div class="container-fluid footer">
+        <div class="row">
+          <div class="col">
+            <p>Autor: A. Čermák, Sexta &copy; 2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
